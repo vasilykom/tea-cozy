@@ -93,11 +93,9 @@ a {
 }
 
 .loc{
-  padding-top: 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   align-items: center;
 
 }
@@ -105,14 +103,19 @@ a {
   width: 300px;
   height: 300px;
   background-color: black;
-  margin: 15px 20px 15px 20px;
+  margin: 0px 20px 15px 20px;
+  padding-top: 0;
   text-align: center;
   opacity: 1;
 }
 
+.locations-position{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
 .footer{
   text-align: center;
-
 }
 
 .copyright{
