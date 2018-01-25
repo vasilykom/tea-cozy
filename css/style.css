@@ -63,7 +63,6 @@ a {
 .image-content{
   background-color: black;
   text-align: center;
-
 }
 
 .secondary-background{
@@ -73,13 +72,15 @@ a {
 .pictures img{
   width: 300px;
   height: 200px;
+  padding: 10px 10px 10px 10px;
+
 }
 .pictures{
+  margin: auto;
   width: 1000px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: center;
-  text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+
+text-align: center;
 }
