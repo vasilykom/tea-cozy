@@ -47,7 +47,7 @@ a {
 }
 
 .img-mission-background {
-  background-image: url("C:/Users/Vasily/Documents/Projects/Tea_Cozy/images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   width:1200px ;
   height: 700px;
   margin-top: 0px;
@@ -84,7 +84,7 @@ a {
 
 .locations{
   margin: auto;
-  background-image: url("C:/Users/Vasily/Documents/Projects/Tea_Cozy/images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   width: 1200px;
   height: 500px;
   display: flex;
@@ -109,7 +109,7 @@ a {
   opacity: 1;
 }
 
-.locations-position{
+.locations-position h2{
   margin-bottom: 0px;
   padding-bottom: 0px;
 
