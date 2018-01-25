@@ -75,6 +75,7 @@ a {
   height: 200px;
 }
 .pictures{
+  width: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
