@@ -109,3 +109,13 @@ a {
   text-align: center;
   opacity: 1;
 }
+
+.footer{
+  text-align: center;
+
+}
+
+.copyright{
+  margin-left: 10px;
+  text-align: left;
+}
