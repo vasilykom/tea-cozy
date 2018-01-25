@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header{
+  margin: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: mediumaquamarine;
+  text-decoration: underline;
+}
+
+.logo img{
+  height: 50px;
+  padding-left:10px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+}
+
+.img-mission-background {
+  background-image: url("C:/Users/Vasily/Documents/Projects/Tea_Cozy/images/img-mission-background.jpg");
+  width:1200px ;
+  height: 700px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.image-content{
+  background-color: black;
+  text-align: center;
+
+}
+
+.secondary-background{
+  text-align: center;
+}
+
+.pictures img{
+  width: 300px;
+  height: 200px;
+}
+.pictures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
