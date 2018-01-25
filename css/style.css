@@ -51,13 +51,11 @@ a {
   width:1200px ;
   height: 700px;
   margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: auto;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .image-content{
@@ -77,10 +75,37 @@ a {
 }
 .pictures{
   margin: auto;
-  width: 1000px;
   display: flex;
-justify-content: center;
-flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  flex-wrap: wrap;
+  text-align: center;
+}
 
-text-align: center;
+.locations{
+  margin: auto;
+  background-image: url("C:/Users/Vasily/Documents/Projects/Tea_Cozy/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loc{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+}
+.location {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 15px 20px 15px 20px;
+  text-align: center;
+  opacity: 1;
 }
